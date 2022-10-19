@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    padding: 0 8%;
+    width:100%;
+    height:100vh;
+    position: relative;
+}
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width:140px;
+}
+.logo-links{
+    padding: 28px 0;
+}
+.logo-links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.logo-links li a{
+    text-decoration: none;
+    color:#fff;
+    padding:15px 0;
+    transition:all 0.5s;
+}
+.logo-links li a:hover{
+    border: 0px white solid;
+    padding:7px;
+    color:orangered;
+    background-color: white;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.btn{
+color:orangered;
+background-color:white;
+border-radius: 3px;
+cursor: pointer;
+font-weight: lighter;
+padding:15px;
+transition:0.5s;
+}
+.btn:hover{
+color:#fff;
+background-color: orangered;
+}
+.cont{
+    color:#fff;
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:90%;
+    max-width: 900px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding-top:50px;
+}
+.cont h1{
+    font-weight: 600;
+    font-size: 65px;
+    margin-bottom: 40px;
+}
+.cont form{
+    border-radius: 8px;
+    background: #fff;
+    padding:10px;
+    display: flex;
+
+}
+.cont form input{
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 0 20px;
+    font-size: 18px;
+}
+.cont form button{
+    background: #ff3d00;
+    padding:15px;
+    border:none;
+    color:white;
+    cursor: pointer;
+    border-radius:5px;
+}
+.cat-list{
+    display:flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.cat{
+    width: 80px;
+    height: 80px;
+    background-color: brown;
+    margin-right:20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size:9px;
+    transition:0.8s;
+
+}
+.cat img{
+    width:25px;
+    margin-bottom: 5px;
+    transition:0.8s;
+}
+.back-vid{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    min-width:100%;
+    min-height: 100%;
+    width:auto;
+    height:auto;
+    z-index: -100;
+}
+.cat:hover{
+    background-color:black;
+    color:white;
+}
+.end{
+    color:white;
+    font-size:12px;
+}
